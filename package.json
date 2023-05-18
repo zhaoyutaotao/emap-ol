@@ -1,0 +1,27 @@
+{
+  "name": "emap-ol",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --bundleConfigAsCjs -c"
+  },
+  "keywords": [
+    "map",
+    "ol",
+    "OpenLayers"
+  ],
+  "author": "zhaoyt",
+  "files": [
+    "dist"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^3.22.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^5.0.4"
+  }
+}
