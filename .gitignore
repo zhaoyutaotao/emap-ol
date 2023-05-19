@@ -1,6 +1,7 @@
 dist
 .DS_Store
 node_modules
+docs
 .idea
 *.log
 package-lock.json

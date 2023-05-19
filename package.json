@@ -7,7 +7,8 @@
   "browser": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup --bundleConfigAsCjs -c"
+    "build": "rollup --bundleConfigAsCjs -c",
+    "typedoc": "npx typedoc --tsconfig typedoc.json"
   },
   "keywords": [
     "map",
@@ -22,6 +23,7 @@
   "devDependencies": {
     "rollup": "^3.22.0",
     "rollup-plugin-typescript2": "^0.34.1",
+    "typedoc": "^0.24.7",
     "typescript": "^5.0.4"
   }
 }
