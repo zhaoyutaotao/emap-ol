@@ -10,9 +10,9 @@
     // 输出选项 - 将软件包package.json中的版本version添加到项目名称中
     "includeVersion": true,
     // 输出选项 - 设置将在模板标题中使用的项目的名称。默认为package.json中的name
-    "name": "测试title",
+    "name": "Emap-ol",
     // 输出选项 - 不在页面末尾打印TypeDoc链接
-    // "hideGenerator": true,
+    "hideGenerator": true,
     // 输出选项 - 禁用描述代码位置
     "disableSources": true
   }

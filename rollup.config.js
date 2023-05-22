@@ -1,4 +1,4 @@
-// import dts from 'rollup-plugin-dts'
+import dts from 'rollup-plugin-dts'
 import ts from 'rollup-plugin-typescript2'
 import path from 'path'
 export default [
@@ -35,7 +35,6 @@ export default [
       file: path.resolve(__dirname, './dist/index.d.ts'),
       format: 'es'
     },
-    
-    // plugins: [dts()]
+    plugins: [dts.default()]
   }
 ]
