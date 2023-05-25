@@ -8,7 +8,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --bundleConfigAsCjs -c",
-    "typedoc": "npx typedoc --tsconfig typedoc.json"
+    "typedoc": "npx typedoc --tsconfig typedoc.json",
+    "typedoc:md":"typedoc --plugin typedoc-plugin-markdown --out docs src/core/index.ts"
   },
   "keywords": [
     "map",
@@ -25,6 +26,7 @@
     "rollup-plugin-dts": "^5.3.0",
     "rollup-plugin-typescript2": "^0.34.1",
     "typedoc": "^0.24.7",
+    "typedoc-plugin-markdown": "^3.15.3",
     "typescript": "^5.0.4"
   }
 }
